@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DG Land</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!--start-->
+
+    <!--banner-->
+
+    <div
+      id="banner"
+      class="w-[100%] fixed top-0 z-[999] transition-all duration-100 ease-linear"
+    >
+      <img
+        class="w-[100%] h-14 max-lg:hidden object-cover"
+        src="media/banner.jpg"
+        alt=""
+      />
+      <img
+        class="w-[100%] h-11 object-cover lg:hidden"
+        src="media/mobilebanner.jpg"
+        alt=""
+      />
+    </div>
+
+    <!--menu-->
+
+    <div
+      id="menu"
+      class="w-[100%] h-11 lg:h-20 flex justify-around fixed z-[999] top-0 bg-white"
+    >
+      <div class="desktop w-[100%] h-11 flex justify-around max-lg:hidden">
+        <div>
+          <img class="pt-4 mr-5" src="media/dgland main logo .svg" alt="" />
+        </div>
+        <div class="flex justify-start">
+          <div
+            class="category text-[#8D8D8D] pt-6 cursor-pointer hover:text-[#E10A0A]"
+          >
+            <img class="inline-block" src="media/menu.svg" alt="" />
+            دسته بندی کالاها
+            <div
+              class="submenu w-[400px] h-[300px] bg-white text-black top-[50px] overflow-y-auto absolute hidden rounded-lg"
+            >
+              <div class="flex flex-col justify-start mt-4">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/phone.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">گوشی موبایل</p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">اوپو</p>
+                    <p class="hover:text-[#E10A0A]">اپل</p>
+                    <p class="hover:text-[#E10A0A]">سامسونگ</p>
+                    <p class="hover:text-[#E10A0A]">ناتینگ فون</p>
+                    <p class="hover:text-[#E10A0A]">هوآوی</p>
+                  </div>
+                  <div class="flex gap-6">
+                    <p class="hover:text-[#E10A0A]">شیائومی</p>
+                    <p class="hover:text-[#E10A0A]">نوکیا</p>
+                    <p class="hover:text-[#E10A0A]">همه برند ها</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start mt-2">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/computer.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">لپتاپ و کامپیوتر</p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">لپتاپ</p>
+                    <p class="hover:text-[#E10A0A]">مانتیور</p>
+                    <p class="hover:text-[#E10A0A]">کامپیوتر همه کاره</p>
+                    <p class="hover:text-[#E10A0A]">کیبورد</p>
+                  </div>
+                  <div class="flex gap-6">
+                    <p class="hover:text-[#E10A0A]">موس</p>
+                    <p class="hover:text-[#E10A0A]">لوازم جانبی کامپیوتر</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start mt-2">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/tablet.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">تبلت</p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">اپل</p>
+                    <p class="hover:text-[#E10A0A]">سامسونگ</p>
+                    <p class="hover:text-[#E10A0A]">مایکروسافت</p>
+                    <p class="hover:text-[#E10A0A]">لنوو</p>
+                    <p class="hover:text-[#E10A0A]">همه برندها</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start mt-2">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/airods.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">هدفون و هندزفری</p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">اپل</p>
+                    <p class="hover:text-[#E10A0A]">سامسونگ</p>
+                    <p class="hover:text-[#E10A0A]">جی بی ال</p>
+                    <p class="hover:text-[#E10A0A]">ریزر</p>
+                    <p class="hover:text-[#E10A0A]">همه برند ها</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start mt-2">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/watch.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">ساعت هوشمند</p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">اپل</p>
+                    <p class="hover:text-[#E10A0A]">سامسونگ</p>
+                    <p class="hover:text-[#E10A0A]">شیائومی</p>
+                    <p class="hover:text-[#E10A0A]">امیزفیت</p>
+                    <p class="hover:text-[#E10A0A]">هایلو</p>
+                  </div>
+                  <div class="flex gap-6">
+                    <p class="hover:text-[#E10A0A]">همه برند ها</p>
+                    <p class="hover:text-[#E10A0A]">لوارم جانبی ساعت هوشمند</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start mt-2">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/speaker.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">صوتی و تصویری</p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">تلویزیون</p>
+                    <p class="hover:text-[#E10A0A]">ساندبار</p>
+                    <p class="hover:text-[#E10A0A]">اسپیکر</p>
+                    <p class="hover:text-[#E10A0A]">کنسول بازی</p>
+                  </div>
+                  <div class="flex gap-6">
+                    <p class="hover:text-[#E10A0A]">لوازم جانبی صوتی تصویری</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start mt-2">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/extra.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">
+                    لوازم جانبی گوشی موبایل
+                  </p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">کابل و مبدل</p>
+                    <p class="hover:text-[#E10A0A]">شارژر</p>
+                    <p class="hover:text-[#E10A0A]">پاوربانک</p>
+                    <p class="hover:text-[#E10A0A]">محافظ صفحه نمایش</p>
+                  </div>
+                  <div class="flex gap-6">
+                    <p class="hover:text-[#E10A0A]">کیف و کاور</p>
+                    <p class="hover:text-[#E10A0A]">پایه نگهدارنده</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-start mt-2">
+                <div class="flex gap-2 pt-7 px-4">
+                  <img class="w-8" src="media/storage.png" alt="" />
+                  <p class="text-lg hover:text-[#E10A0A]">تجهیزات ذخیره سازی</p>
+                  <img class="w-2 pt-1" src="media/red flash.svg" alt="" />
+                </div>
+                <div class="flex pt-4 px-4 flex-col text-sm gap-4">
+                  <div class="flex gap-7">
+                    <p class="hover:text-[#E10A0A]">فلش</p>
+                    <p class="hover:text-[#E10A0A]">کارت حافظه</p>
+                    <p class="hover:text-[#E10A0A]">هارد اینترنال</p>
+                    <p class="hover:text-[#E10A0A]">هارد اکسترنال</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-[#8D8D8D] pt-6 pr-5 hover:text-[#E10A0A] cursor-pointer"
+          >
+            <img class="inline-block" src="media/magazine.svg" alt="" />
+            مجله دی جی لند
+          </div>
+          <div
+            class="text-[#8D8D8D] pt-6 pr-5 hover:text-[#E10A0A] cursor-pointer"
+          >
+            <img class="inline-block" src="media/gold.svg" alt="" />
+            پیشنهاد طلایی
+          </div>
+        </div>
+        <div class="text-[#8D8D8D] pt-5 pr-12">
+          <img
+            class="inline-block relative transition-all duration-300 ease-linear"
+            src="media/search.svg"
+            alt=""
+          />
+          <input
+            class="border-none p-1 w-28 text-lg outline-none transition-all duration-300 ease-linear focus:w-48 cursor-pointer"
+            type="search"
+            name=""
+            placeholder="جستجو ..."
+          />
+        </div>
+        <div class="flex gap-4 cursor-pointer ml-2 pt-5">
+          <div class="flex gap-2">
+            <img class="w-7 inline-block" src="media/logout.svg" alt="" />
+            <p class="text-[#E10A0A] font-bold hidden xl:block">وارد شوید</p>
+          </div>
+          <img class="w-7" src="media/cart.svg" alt="" />
+          <img class="w-7" src="media/location.svg" alt="" />
+        </div>
+      </div>
+      <div class="mobile w-[100%] h-12 lg:hidden">
+        <div class="flex justify-between">
+          <img class="pr-4" src="media/hamburger icon.svg" alt="" />
+
+          <img class="" src="media/dgland main logo .svg" alt="" />
+
+          <img class="pl-3" src="media/red gold.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!--slider-->
+
+    <section class="slider w-[100%] max-lg:mt-4 mt-28">
+      <div class="desktop max-lg:hidden h-[300px]">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="media/slider1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/slider2.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/slider3.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/slider4.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/slider5.webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/slider6.gif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/slider7.webp" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="mobile lg:hidden h-auto mt-14">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="media/MobileSlider (1).gif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/MobileSlider (1).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/MobileSlider (1).webp" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/MobileSlider (2).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/MobileSlider (3).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/MobileSlider (4).jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="media/MobileSlider (5).jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--category-->
+
+    <div class="w-[100%]">
+      <h2
+        class="text-center pt-7 lg:text-2xl font-medium pb-2 max-lg:font-bold max-md:text-lg"
+      >
+        دسته بندی های پربازدید
+      </h2>
+      <img class="mx-auto" src="media/line.svg" alt="" />
+      <div class="swiper mySwiper2 my-7">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="media/category1.webp" alt="" />
+            <p class="mt-4 text-sm font-semibold">گوشی موبایل</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="media/category2.webp" alt="" />
+            <p class="mt-4 text-sm font-semibold">اسپیکر و بلندگو</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="media/category3.webp" alt="" />
+            <p class="mt-4 text-sm font-semibold">ساعت هوشمند</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="media/category4.webp" alt="" />
+            <p class="mt-4 text-sm font-semibold">هدفون و هندزفری</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="media/category5.webp" alt="" />
+            <p class="mt-4 text-sm font-semibold">محافظ صفحه نمایش</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="media/category6.webp" alt="" />
+            <p class="mt-4 text-sm font-semibold">شارژر و پاوربانک</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="media/category7.webp" alt="" />
+            <p class="mt-4 text-sm font-semibold">کابل شارژ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--banners-->
+
+    <div
+      class="w-[95%] flex flex-wrap lg:flex-nowrap lg:gap-4 mx-auto my-10 justify-center"
+    >
+      <div>
+        <img
+          class="rounded-xl h-[104px] w-[988px] lg:h-20 lg:w-[504px] xl:h-24 xl:w-[632px] object-cover"
+          src="media/banner2 (1).jpeg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="rounded-xl h-[104px] w-[988px] lg:h-20 lg:w-[504px] xl:h-24 xl:w-[632px] object-cover max-lg:mt-4"
+          src="media/banner2 (2).jpeg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!--swiper-->
+
+    <div class="golden-off bg-gradient-to-r from-[#B10202] to-[#E10A0A] py-6">
+      <div class="h-10 text-center">
+        <img class="inline-block" src="media/golden-off.svg" alt="" />
+        <p class="inline-block text-white font-medium text-3xl">
+          پیشنهاد طلایی
+        </p>
+      </div>
+      <div class="swiper mySwiper3 mt-9">
+        <div class="swiper-wrapper px-11">
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper1.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3 te">
+                  گوشی موبایل سامسونگ مدل Galaxy A14 ظرفیت 128 گیگابایت ...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >6.669.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%1</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >6.599.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper2.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت ...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >4.720.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%2</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >4.615.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper3.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  کنسول بازی سونی مدل PlayStation 5 Standard Drive ظرفیت 825...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >31.900.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%6</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >29.900.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper4.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  لپ تاپ اپل مدل MacBook Air M1 ظرفیت 256 گیگابایت رم 8
+                  گیگابایت...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >40.970.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%4</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >43.920.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper7.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  گوشی موبایل سامسونگ مدل Galaxy S24 Plus 5G ظرفیت 256
+                  گیگابایت...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >69.699.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%1</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >60.599.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper8.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  گوشی موبایل شیائومی مدل Poco X6 Pro 5G دو سیمکارت با ظرفیت ...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >10.699.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%1</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >10.399.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper9.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  گوشی موبایل شیائومی مدل Poco M6 Pro دو سیمکارت با ظرفیت ...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >12.699.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%2</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >10.499.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper10.gif"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  گوشی موبایل آنر مدل X8a دو سیمکارت با ظرفیت 128 گیگابایت ...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >7.895.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%4</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >7.595.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px] bg-black rounded-2xl">
+              <div
+                class="box h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="aks pt-4 transition-all duration-300 ease-linear"
+                  src="media/swiper11.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-10 px-3">
+                  گوشی موبایل سامسونگ مدل Galaxy S24 Ultra 5G ظرفیت ...
+                </p>
+                <div class="text-left">
+                  <span
+                    class="matn text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >68.722.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-around">
+                  <span
+                    class="takhfif bg-[#E10A0A] p-1 text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold"
+                    >%1</span
+                  >
+                  <span
+                    class="txt text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >68.222.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!--mobile-->
+
+    <div class="w-[100%] mt-5 px-5">
+      <h2
+        class="text-center pt-7 lg:text-2xl text-xl font-medium pb-2 max-lg:font-bold ax-lg:text-lg"
+      >
+        گوشی موبایل
+      </h2>
+      <img class="mx-auto" src="media/line.svg" alt="" />
+      <div class="swiper mySwiper4 m-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/mobile1.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl m w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">گوشی های پرچم دار</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/mobile2.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">گوشی های میان رده</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/mobile3.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">گوشی های اقتصادی</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!--popular mobiles-->
+
+    <div class="golden-off py-6 mx-7">
+      <div class="flex text-center justify-center">
+        <img class="pt-6 px-3" src="media/thin.svg" alt="" />
+        <h2
+          class="text-center pt-7 lg:text-2xl font-medium pb-2 max-lg:font-bold max-lg:text-lg"
+        >
+          محبوب ترین های موبایل
+        </h2>
+        <img class="pt-6 px-3" src="media/thin.svg" alt="" />
+      </div>
+      <div class="swiper mySwiper3 mt-9">
+        <div class="swiper-wrapper px-11">
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/phone1.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل ناتینگ فون مدل Nothing Phone 1 ظرفیت 256 ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >19.199.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/phone2.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل موتورولا مدل Moto E13 ظرفیت 64 گیگابایت ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >3.019.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/phone4.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل سامسونگ مدل Galaxy A14 ظرفیت 128 گیگابایت رم ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >7.442.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/phone6.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل سامسونگ مدل Galaxy A04s دو سیم‌ کارت با ظرفیت ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >5.342.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/phone7.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل اپل مدل iPhone 13 Not Active ظرفیت 128 گیگابایت
+                  ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >37.592.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/phone8.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل شیائومی مدل Poco X5 Pro 5G ظرفیت 256 گیگابایت و
+                  ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >14.125.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/bestSellings5.jpeg"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل اپل مدل iPhone 13 Not Active ظرفیت 128 گیگابایت
+                  ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >37.299.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/bestSellings6.gif"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل سامسونگ مدل Galaxy A24 ظرفیت 128 گیگابایت ...
+                </p>
+
+                <div class="text-left ml-4 mt-7">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >7.599.000
+                  </span>
+                  <span class="text-[#E10A0A] font-semibold text-sm"
+                    >تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!--be aware-->
+
+    <div class="w-[100%] mt-5 lg:h-[460px]">
+      <div>
+        <h2
+          class="text-center pt-7 lg:text-2xl text-xl font-medium pb-2 max-lg:font-bold ax-lg:text-lg"
+        >
+          در جریان باش
+        </h2>
+        <img class="mx-auto" src="media/line.svg" alt="" />
+      </div>
+
+      <div
+        class="flex flex-nowrap mt-8 justify-center text-center gap-7 mx-10 max-lg:flex-wrap"
+      >
+        <div class="w-auto h-[400px] max-lg:h-auto max-lg:w-auto max-lg:p-4">
+          <img
+            class="rounded-xl"
+            src="media/video1.webp"
+            alt=""
+            usemap="#video"
+          /><map name="video">
+            <area
+              shape="rect"
+              target="_blank"
+              coords="2,0,762,473"
+              alt=""
+              href="https://www.aparat.com/v/brnaK"
+          /></map>
+          <p class="font-bold text-lg text-[#505050] pt-4 max-lg:text-xs">
+            سگ مخفی سامسونگ
+          </p>
+        </div>
+        <div class="w-auto h-[400px] max-lg:h-auto max-lg:w-auto max-lg:p-4">
+          <img
+            class="rounded-xl"
+            src="media/video2.webp"
+            alt=""
+            usemap="#video"
+          /><map name="video">
+            <area
+              shape="rect"
+              coords="0,0,762,474"
+              target="_blank"
+              alt=""
+              href="https://www.aparat.com/v/5qzjl"
+          /></map>
+          <p class="font-bold text-lg text-[#505050] pt-4 max-lg:text-xs">
+            جدیدترین شعبه دی جی لند,شعبه زیمامال
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--soti tasviri-->
+
+    <div class="w-[100%] lg:mt-7 xl:mt-12 px-5">
+      <h2
+        class="text-center pt-7 lg:text-2xl text-xl font-medium pb-2 max-lg:font-bold max-lg:text-lg"
+      >
+        صوتی و تصویری
+      </h2>
+      <img class="mx-auto" src="media/line.svg" alt="" />
+      <div class="swiper mySwiper4 m-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/tv.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">تلویزیون</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/speaker.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">اسپیکر و ساندبار</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/wspeaker.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">اسپیکر بلوتوث و باسیم</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!--video-->
+
+    <div class="w-[96%] mx-auto text-center mt-10 justify-center">
+      <img
+        src="media/video3.webp"
+        class="rounded-2xl mx-auto w-[100%]"
+        alt=""
+        usemap="#video3"
+      />
+      <map name="video3">
+        <area
+          target="_blank"
+          shape="rect"
+          coords="2,0,762,473"
+          alt=""
+          href="https://www.aparat.com/v/pbX6o"
+      /></map>
+    </div>
+
+    <!--computer and laptop-->
+
+    <div class="w-[100%] mt-5 px-5">
+      <h2
+        class="text-center pt-7 lg:text-2xl text-xl font-medium pb-2 max-lg:font-bold max-lg:text-lg"
+      >
+        کامپیوتر و لپ تاپ
+      </h2>
+      <img class="mx-auto" src="media/line.svg" alt="" />
+      <div class="swiper mySwiper4 m-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/computer1.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">لپ تاپ و اولترابوک</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/computer2.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">مانیتور</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="rounded-2xl" src="media/computer3.webp" alt="" />
+            <div
+              class="bg-[#E10A0A] text-white text-xl w-full h-12 rounded-b-2xl absolute bottom-0"
+            >
+              <p class="pt-2">ماوس و کیبورد</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!--popular products-->
+
+    <div class="golden-off py-6 mx-7">
+      <div class="flex text-center justify-center">
+        <img class="pt-6 px-3" src="media/thin.svg" alt="" />
+        <h2
+          class="text-center pt-7 lg:text-2xl text-xl font-medium pb-2 max-lg:font-bold max-lg:text-lg"
+        >
+          محبوب ترین های لوازم جانبی
+        </h2>
+        <img class="pt-6 px-3" src="media/thin.svg" alt="" />
+      </div>
+      <div class="swiper mySwiper3 mt-9">
+        <div class="swiper-wrapper px-11">
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/product1.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-5 px-3">
+                  هندزفری بلوتوثی کیو سی وای مدل T13 TWS
+                </p>
+                <div class="text-left mt-4">
+                  <span
+                    class="text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >770.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-between mx-2">
+                  <span
+                    class="bg-[#E10A0A] text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold p-2"
+                    >%7</span
+                  >
+                  <span
+                    class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >660.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/product2.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  گوشی موبایل ناتینگ فون مدل Nothing Phone 1 ظرفیت 256 ...
+                </p>
+
+                <div class="text-left ml-4 mt-10">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >11.030.000 تومان
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/product3.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-5 px-3">
+                  هندزفری بلوتوثی سامسونگ مدل Galaxy Buds 2 Pro
+                </p>
+                <div class="text-left mt-4">
+                  <span
+                    class="text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >5.790.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-between mx-2">
+                  <span
+                    class="bg-[#E10A0A] text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold p-2"
+                    >%11</span
+                  >
+                  <span
+                    class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >5.537.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/product4.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-5 px-3">
+                  کاور سیلیکونی محافظ لنز دار مناسب برای گوشی موبایل سامسونگ
+                </p>
+                <div class="text-left mt-4">
+                  <span
+                    class="text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >130.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-between mx-2">
+                  <span
+                    class="bg-[#E10A0A] text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold p-2"
+                    >%44</span
+                  >
+                  <span
+                    class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >73.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/product6.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-7 px-2">
+                  پخش کننده تلویزیون تسکو مدل TAB ECO
+                </p>
+
+                <div class="text-left ml-4 mt-10">
+                  <span class="text-lg font-bold text-[#E10A0A] text-left"
+                    >2.290.000 تومان
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide !w-[242px] cursor-pointer">
+            <div class="h-[362px]">
+              <div
+                class="boxes h-[362px] bg-white rounded-2xl transition-all duration-300 ease-linear"
+              >
+                <img
+                  class="img pt-4 transition-all duration-300 ease-linear"
+                  src="media/product7.webp"
+                  alt=""
+                />
+                <p class="text-sm text-right pt-5 px-3">
+                  هدفون بلوتوثی اپل مدل AirPods Pro (2nd generation 2022)
+                </p>
+                <div class="text-left mt-4">
+                  <span
+                    class="text-xs font-bold text-[#A4A4A4] line-through text-left pl-4 pt-3 pb-2 block transition-all duration-15000 delay-200 ease-linear"
+                    >10.290.000 تومان</span
+                  >
+                </div>
+                <div class="flex justify-between mx-2">
+                  <span
+                    class="bg-[#E10A0A] text-white text-sm rounded-full transition-all duration-15000 delay-200 ease-linear font-bold p-2"
+                    >%3</span
+                  >
+                  <span
+                    class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                    >9.997.000 تومان</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!--bestsellings-->
+
+    <div class="golden-off bg-[#101010] py-6 text-center">
+      <div class="h-10 text-center">
+        <img src="media/bestSellsDesktop.png" alt="" />
+      </div>
+
+      <div class="swiper mySwiper3 mt-16">
+        <div class="swiper-wrapper px-3 py-7 z-0 justify-evenly">
+          <div
+            class="swiper-slide !w-[230px] cursor-pointer z-40 !h-[362px] move origin-top bg-white rounded-2xl transition-all duration-500 ease-in"
+          >
+            <div class="">
+              <div class="pin">
+                <img class="w-5" src="media/pin.svg" alt="" />
+              </div>
+              <img
+                class="pt-4 transition-all duration-300 ease-linear"
+                src="media/bestSellings1.webp"
+                alt=""
+              />
+              <p class="text-sm text-right pt-10 px-3 te">
+                گوشی موبایل سامسونگ مدل Galaxy A54 5G ظرفیت ...
+              </p>
+
+              <div class="flex justify-end mt-10 ml-4">
+                <span
+                  class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                  >15.488.000 </span
+                ><span class="font-semibold text-sm text-[#E10A0A] mx-1"
+                  >تومان</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide !w-[230px] cursor-pointer z-30 !h-[362px] move origin-top bg-white rounded-2xl transition-all duration-500 ease-in"
+          >
+            <div class="">
+              <div class="pin">
+                <img class="w-5" src="media/pin.svg" alt="" />
+              </div>
+              <img
+                class="pt-4 transition-all duration-300 ease-linear"
+                src="media/bestSellings2.webp"
+                alt=""
+              />
+              <p class="text-sm text-right pt-10 px-3 te">
+                گوشی موبایل نوکیا مدل 150 (2020)فارسی FA دو سیم‌ کارت ...
+              </p>
+
+              <div class="flex justify-end mt-10 ml-4">
+                <span
+                  class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                  >1.788.000 </span
+                ><span class="font-semibold text-sm text-[#E10A0A] mx-1"
+                  >تومان</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide !w-[230px] cursor-pointer z-20 !h-[362px] move origin-top bg-white rounded-2xl transition-all duration-500 ease-in"
+          >
+            <div class="">
+              <div class="pin">
+                <img class="w-5" src="media/pin.svg" alt="" />
+              </div>
+              <img
+                class="pt-4 transition-all duration-300 ease-linear"
+                src="media/bestSellings3.webp"
+                alt=""
+              />
+              <p class="text-sm text-right pt-10 px-3 te">
+                گوشی موبایل سامسونگ مدل Galaxy A54 5G ظرفیت ...
+              </p>
+
+              <div class="flex justify-end mt-10 ml-4">
+                <span
+                  class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                  >10.428.000 </span
+                ><span class="font-semibold text-sm text-[#E10A0A] mx-1"
+                  >تومان</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide !w-[230px] cursor-pointer z-0 !h-[362px] move origin-top bg-white rounded-2xl transition-all duration-500 ease-in"
+          >
+            <div class="">
+              <div class="pin">
+                <img class="w-5" src="media/pin.svg" alt="" />
+              </div>
+              <img
+                class="pt-4 transition-all duration-300 ease-linear"
+                src="media/bestSellings4.webp"
+                alt=""
+              />
+              <p class="text-sm text-right pt-10 px-3 te">
+                گوشی موبایل شیائومی مدل Redmi Note 12 Pro دو سیمکارت ...
+              </p>
+
+              <div class="flex justify-end mt-10 ml-4">
+                <span
+                  class="text-lg font-bold text-[#E10A0A] text-left transition-all duration-15000 delay-200 ease-linear"
+                  >10.868.000 </span
+                ><span class="font-semibold text-sm text-[#E10A0A] mx-1"
+                  >تومان</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="text-white py-4 px-20 rounded-lg bg-[#E10A0A]">
+        مشاهده همه
+      </button>
+    </div>
+
+    <!--magazine-->
+
+    <div>
+      <h2
+        class="text-center pt-7 lg:text-2xl text-xl font-medium pb-2 max-lg:font-bold max-lg:text-lg"
+      >
+        مجله دی جی لند
+      </h2>
+      <img class="mx-auto" src="media/line.svg" alt="" />
+      <div
+        class="lg:container mt-5 lg:w-full w-[95%] flex lg:flex-row flex-col mx-auto px-3 justify-between"
+      >
+        <div
+          class="lg:w-[39.6%] w-[100%] flex flex-col lg:!h-[530px] justify-between gap-2"
+        >
+          <div
+            class="overlay rounded-2xl w-full cursor-pointer relative overflow-hidden"
+          >
+            <img
+              src="./media/magazine1.jpeg"
+              alt=""
+              class="object-cover rounded-2xl !w-full lg:!h-[260px] transition-all duration-300 ease-linear"
+            />
+            <div
+              class="bg-gradient-to-t from-black to-[#00000000] w-full h-full absolute top-0 rounded-2xl"
+            ></div>
+            <div
+              class="rounded-full bg-[#A4A4A4] absolute top-4 right-4 w-[37px] h-[37px] flex items-center justify-center"
+            >
+              <img src="./media/share.svg" alt="" />
+            </div>
+            <div
+              class="text-white absolute bottom-5 right-4 font-yekBold lg:font-yekExtra flex flex-col gap-3"
+            >
+              <span
+                class="bg-[#E10A0A] rounded-full px-4 py-3 flex items-center w-fit"
+                >آموزش و ترفند</span
+              >
+              <p class="max-lg:text-sm">
+                آموزش بکاپ گرفتن از پیام های واتساپ و روش های انتقال آن
+              </p>
+            </div>
+          </div>
+          <div
+            class="overlay rounded-2xl w-full cursor-pointer relative overflow-hidden"
+          >
+            <img
+              src="./media/magazine2.jpeg"
+              alt=""
+              class="object-cover rounded-2xl !w-full lg:!h-[260px] transition-all duration-300 ease-linear"
+            />
+            <div
+              class="bg-gradient-to-t from-black to-[#00000000] w-full h-full absolute top-0 rounded-2xl"
+            ></div>
+            <div
+              class="rounded-full bg-[#A4A4A4] absolute top-4 right-4 w-[37px] h-[37px] flex items-center justify-center"
+            >
+              <img src="./media/share.svg" alt="" />
+            </div>
+            <div
+              class="text-white absolute bottom-5 right-4 font-yekBold lg:font-yekExtra flex flex-col gap-3"
+            >
+              <span
+                class="bg-[#E10A0A] rounded-full px-4 py-3 flex items-center w-fit"
+                >آموزش و ترفند</span
+              >
+              <p class="max-lg:text-sm">
+                این ترفند باعث میشود برنامه های ویندوز به صورت خودکار ...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overlay lg:w-[59.6%] w-full mt-2 lg:mt-0 lg:h-[530px] cursor-pointer relative overflow-hidden rounded-2xl"
+        >
+          <img
+            src="./media/magazine3.jpeg"
+            alt=""
+            class="rounded-2xl !w-full lg:!h-[530px] object-cover transition-all duration-300 ease-linear"
+          />
+          <div
+            class="bg-gradient-to-t from-black to-[#00000000] w-[100%] h-full absolute top-0 rounded-2xl"
+          ></div>
+          <div
+            class="rounded-full bg-[#A4A4A4] absolute top-4 right-4 w-[37px] h-[37px] flex items-center justify-center"
+          >
+            <img src="./media/share.svg" alt="" />
+          </div>
+          <div
+            class="text-white absolute bottom-5 right-4 font-yekBold lg:font-yekExtra flex flex-col gap-3"
+          >
+            <span
+              class="bg-[#E10A0A] rounded-full px-4 py-3 flex items-center w-fit"
+              >منتخب سردبیر</span
+            >
+            <p class="max-lg:text-sm">
+              معرفی 10 بازی پولی هیجان انگیز,پول بده ولی حرفه ای ...
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="mx-auto py-2.5 px-5 flex border-[1px] border-[#CDCDCD] rounded-xl mt-3 lg:mt-8 text-[#E10A0A]"
+      >
+        مشاهده همه
+      </button>
+    </div>
+
+    <!--footer-->
+
+    <div class="w-[93%] max-lg:w-[70%] mt-10 text-center mx-auto">
+      <!---->
+
+      <div
+        class="w-[93%] flex lg:justify-between justify-between max-md:justify-center max-md:text-center"
+      >
+        <div class="text-right max-md:text-center">
+          <p class="text-[16px] max-lg:text-[14px] text-[#78786F] font-[650px]">
+            خرید انواع محصولات دیجیتال از فروشگاه اینترنتی دی‌جی‌لند
+          </p>
+        </div>
+        <div class="">
+          <button class="lg:ml-1 text-[#535353] max-lg:text-xs max-md:hidden">
+            مشاهده بیشتر
+            <img
+              class="rotate-180 inline-block"
+              src="./media/more.svg"
+              alt=""
+            />
+          </button>
+        </div>
+      </div>
+
+      <!---->
+
+      <div class="pt-10 text-right">
+        <div>
+          <p class="text-[14px] text-[#535353] font-[550px]">
+            فروشگاه اینترنتی دی‌جی‌لند، ضمانت یک خرید مطمئن
+          </p>
+        </div>
+        <div class="pt-3">
+          <p class="text-[13px] text-[#6B6B6B] max-lg:text-justify">
+            دی‌جی‌لند فروشگاهی با سابقه ۲۰ ساله در امر فروش انواع کالاهای
+            دیجیتال است که در راستای تسهیل امر خرید اینترنتی، فروشگاه اینترنتی
+            خود را در سال ۱۳۹۸ افتتاح کرد و در حال حاضر ۷ شعبه فعال در سراسر
+            کشور دارد. تنوع گسترده محصولات و کالاهای موجود در دی‌جی‌لند باعث شده
+            تا کاربران برای خرید گوشی موبایل، ساعت هوشمند، تبلت، لپ تاپ، لوازم
+            جانبی یا تلویزیون و سایر لوازم خانگی، فروشگاه ما را به عنوان انتخاب
+            اول خود در نظر بگیرند.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!---->
+
+    <div class="w-[97%] max-lg:hidden mt-11">
+      <div>
+        <img class="mr-3" src="media/dgland_footer_logo.svg" alt="" />
+      </div>
+      <div class="flex mt-5 mx-4 gap-16 justify-between">
+        <div class="flex flex-col gap-3">
+          <p class="text-sm font-semibold text-[#707070] pb-3">
+            درباره دی جی لند
+          </p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">تماس با ما</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">درباره ما</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">مجله ی دی جی لند</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">شعب</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">شرایط و قوانین</p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-sm font-semibold text-[#707070] pb-3">خدمات مشتریان</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">پرسش های متداول</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">راهنمای خرید</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">شرایط بازگشت کالا</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">ثبت شکایات</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">حریم خصوصی</p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-sm font-semibold text-[#707070] pb-3">
+            دسته بندی های پربازدید
+          </p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">گوشی موبایل</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">اسپیکر و بلندگو</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">ساعت هوشمند</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">هدفون و هندزفری</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">محافظ صفحه نمایش</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">شارژر و پاوربانک</p>
+          <p class="text-xs font-semibold text-[#9e9e9a]">کابل شارژ</p>
+        </div>
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold text-[#707070]">ساعت پاسخگویی</p>
+          <p class="text-xs font-semibold text-[#9e9e9a] my-3">
+            هفت روز هفته از ساعت 9 تا 20
+          </p>
+          <p class="text-xs font-semibold text-[#555555] ml-3">
+            <img class="inline-block" src="media/tele.svg" alt="" />
+            تلفن امور مشتریان
+          </p>
+          <p class="text-xs font-semibold text-[#555555] pr-8">021-41016</p>
+          <p class="text-xs font-semibold text-[#555555]">
+            <img class="inline-block" src="media/rava.svg" alt="" /> روابط عمومی
+          </p>
+          <p class="text-xs font-semibold text-[#555555] pr-8">
+            info@dgland.com
+          </p>
+        </div>
+        <div class="flex flex-col">
+          <p class="text-sm font-semibold text-[#707070]">مارا دنبال کنید</p>
+          <div class="flex gap-4 mt-5">
+            <img src="media/contact us.svg" alt="" />
+            <img src="media/contact us-1.svg" alt="" />
+            <img src="media/contact us-2.svg" alt="" />
+            <img src="media/contact us(1).svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--mobile-->
+
+    <div class="lg:hidden w-[97%] text-center mx-auto mt-11">
+      <div class="text-[#6B6B6B] flex flex-col gap-3">
+        <p>
+          <span class="text-[#E10A0A]">همراه شما هستیم.</span>با ما در ارتباط
+          باشید...
+        </p>
+        <p class="text-[#6B6B6B]">7 روز هفته از ساعت 9 الی 20</p>
+      </div>
+      <div
+        class="max-lg:w-[70%] flex text-[#6B6B6B] text-sm mx-auto justify-evenly mt-7"
+      >
+        <div class="flex gap-2">
+          <div>
+            <img class="pt-2" src="media/tele.svg" alt="" />
+          </div>
+          <div class="flex flex-col text-right">
+            <p>تلفن امور مشتریان</p>
+            <p>021-41016</p>
+          </div>
+        </div>
+        <div class="flex gap-2">
+          <div>
+            <img class="pt-1" src="media/rava.svg" alt="" />
+          </div>
+          <div class="flex flex-col text-right">
+            <p>روابط عمومی</p>
+            <p>info@dgland.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex mt-14 justify-around max-lg:w-[75%] mx-auto">
+        <img src="media/footer (3).png" alt="" />
+        <img src="media/footer (2).png" alt="" />
+        <img src="media/footer (1).png" alt="" />
+        <img src="media/footer (4).png" alt="" />
+      </div>
+    </div>
+
+    <!---->
+
+    <div
+      class="w-[97%] max-lg:w-[70%] flex justify-around mx-auto mt-8 max-lg:flex-wrap max-lg:flex-col max-lg:text-right"
+    >
+      <div class="flex flex-col lg:w-[60%] gap-4">
+        <p>
+          فروشگاه اینترنتی
+
+          <span class="text-[#E10A0A]"> دی‌جی‌لند</span>
+        </p>
+        <p class="text-xs text-[#888887]">
+          فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه به
+          رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و نیاز به
+          کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی خدمت‌رسانی و تامین
+          جدیدترین مدل‌ها از معتبرترین برند‌های کالای دیجیتال ، لوازم خانگی و
+          سرگرمی است.
+        </p>
+      </div>
+      <div class="flex lg:w-[40%] justify-center gap-4 mt-5">
+        <img class="w-20" src="media/enamad.png" alt="" />
+        <img class="w-20" src="media/samandehi.png" alt="" />
+      </div>
+    </div>
+
+    <div
+      class="flex justify-between text-xs text-[#888887] my-5 mx-3 max-lg:mb-24"
+    >
+      <p>کلیه حقوق این وب سایت متعلق به ی جی لند است</p>
+      <p>Copyright 2022 Dgland.com</p>
+    </div>
+
+    <!--footer menu-->
+
+    <div class="lg:hidden fixed z-[999] bottom-0 bg-white w-[100%] h-20">
+      <div
+        class="flex justify-around text-xs text-[#888887] pt-5 font-semibold text-center"
+      >
+        <div class="flex flex-col text-center">
+          <img class="w-7 mx-auto pb-2" src="media/footer-menu.svg" alt="" />
+          <p>دسته بندی</p>
+        </div>
+        <div class="flex flex-col">
+          <img class="w-7 mx-auto pb-2" src="media/search.svg" alt="" />
+          <p>جستجو</p>
+        </div>
+        <div class="flex flex-col">
+          <img class="w-7 mx-auto pb-2" src="media/dg.svg" alt="" />
+          <p class="text-[#E10A0A]">خانه</p>
+        </div>
+        <div class="flex flex-col">
+          <img class="w-7 mx-auto pb-2" src="media/footer-cart.svg" alt="" />
+          <p>سبد خرید</p>
+        </div>
+        <div class="flex flex-col">
+          <img class="w-7 ml-2 pb-2" src="media/footer-login.svg" alt="" />
+          <p>ورود</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

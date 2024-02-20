@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: san;
+}
+
+@font-face {
+  font-family: san;
+  src: url(../media/IRANSansXFaNum-Regular.ttf);
+}
+
+/*banner*/
+
+.hide-banner {
+  top: -10px;
+}
+
+/*menu*/
+
+.category:hover .submenu {
+  display: block;
+}
+
+/*swiper*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.category .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category .swiper-slide img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.golden-off .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.golden-off .swiper-slide img {
+  display: block;
+  width: 179px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.golden-off .swiper-slide .pin > img {
+  display: block;
+  top: -19px;
+  right: 40%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+/*magazine*/
+
+.overlay:hover > img {
+  transform: scale(1.1);
+}
